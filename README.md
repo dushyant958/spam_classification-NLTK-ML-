@@ -9,7 +9,7 @@ This project is a Spam-Ham classifier implemented using the Bag of Words and TF-
   - Bag of Words (BoW)
   - Term Frequency-Inverse Document Frequency (TF-IDF)
 - **Model Training**: Using Multinomial Naive Bayes for classification.
-- **Evaluation**: Model evaluation using accuracy, precision, recall, and F1-score.
+- **Evaluation**: Model evaluation using accuracy score and classification report.
 
 ## Dependencies
 - Python 3.x
@@ -50,7 +50,7 @@ This project is a Spam-Ham classifier implemented using the Bag of Words and TF-
 - **Text Preprocessing**: Utilizes NLTK for tokenization, removing stopwords, and stemming/lemmatization.
 - **Feature Extraction**: Implements both Bag of Words and TF-IDF vectorization.
 - **Model Training**: Uses Scikit-learn's `MultinomialNB` for Naive Bayes classification.
-- **Evaluation Metrics**: Accuracy, precision, recall, and F1-score calculated using Scikit-learn.
+- **Evaluation Metrics**: Accuracy score and classification report calculated using Scikit-learn.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
